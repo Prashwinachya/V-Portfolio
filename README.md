@@ -1,8 +1,8 @@
-# 👋 Hi, I'm Prashwin Prabhakar
+#  Hi, I'm Prashwin Prabhakar
 
 Welcome to my personal portfolio website!
 
-## 🚀 About Me
+##  About Me
 
 I'm a Computer Science Engineering student passionate about building modern web applications, AI-powered solutions, and creative user experiences.
 
@@ -10,15 +10,13 @@ I enjoy exploring new technologies and transforming ideas into real-world projec
 
 ---
 
-## 🌐 Portfolio
+##  Portfolio
 
 Visit my portfolio here:
-
-https://prshwnporfolio.vercel.app
-
+https://www.vprashwinpj.me/
 ---
 
-## 🛠 Tech Stack
+## 🛠Tech Stack
 
 - React
 - TypeScript
@@ -30,7 +28,7 @@ https://prshwnporfolio.vercel.app
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive Design
 - Modern UI/UX
@@ -42,7 +40,7 @@ https://prshwnporfolio.vercel.app
 
 ---
 
-## 📂 Projects
+##  Projects
 
 Some of the featured projects include:
 
@@ -53,13 +51,13 @@ Some of the featured projects include:
 
 ---
 
-## 📬 Contact
+## Contact
 
 Email:
-your-email@example.com
+prashwinpvt12@example.com
 
 LinkedIn:
-https://linkedin.com/in/your-profile
+https://linkedin.com/in/prashwinpj
 
 GitHub:
 https://github.com/Prashwinachya
