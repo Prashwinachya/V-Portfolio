@@ -1,16 +1,74 @@
-# React + Vite
-Portfolio
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 👋 Hi, I'm Prashwin Prabhakar
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio website!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 About Me
 
-## React Compiler
+I'm a Computer Science Engineering student passionate about building modern web applications, AI-powered solutions, and creative user experiences.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I enjoy exploring new technologies and transforming ideas into real-world projects.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Portfolio
+
+Visit my portfolio here:
+
+https://prshwnporfolio.vercel.app
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML5
+- CSS3
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Modern UI/UX
+- Smooth Animations
+- Projects Showcase
+- Skills Section
+- Contact Form
+- Resume Download
+
+---
+
+## 📂 Projects
+
+Some of the featured projects include:
+
+- AI-Powered Biometric Vote Fraud Detection System
+- Career Guidance System
+- Personal Finance Management System
+- Web Development Projects
+
+---
+
+## 📬 Contact
+
+Email:
+your-email@example.com
+
+LinkedIn:
+https://linkedin.com/in/your-profile
+
+GitHub:
+https://github.com/Prashwinachya
+
+---
+
+⭐ If you like this project, consider giving it a star.
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-purple?logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38BDF8?logo=tailwind-css)
