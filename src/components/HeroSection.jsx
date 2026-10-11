@@ -131,31 +131,35 @@ export default function HeroSection({ onExploreWork, onContactClick }) {
           </motion.div>
         </div>
 
-        {/* Right Column: Refined Portrait with Tech Geometry & Floating Badges */}
+        {/* Right Column: Refined Circular Portrait with Tech Orbit & Floating Badges */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="lg:col-span-5 flex justify-center relative"
         >
-          <div className="relative w-72 sm:w-80 md:w-88 aspect-[4/5] flex items-center justify-center">
+          <div className="relative w-64 sm:w-76 md:w-84 aspect-square flex items-center justify-center">
             {/* Soft background pulse glows */}
-            <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-purple-200/70 via-pink-100/50 to-violet-200/50 blur-2xl animate-pulse" />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-200/70 via-pink-100/50 to-violet-200/50 blur-2xl animate-pulse" />
 
-            {/* Orbit ring */}
-            <div className="absolute -inset-3 rounded-[34px] border border-dashed border-purple-300/60 pointer-events-none" />
-
-            {/* Main Portrait Frame */}
+            {/* Orbit ring with subtle gentle rotation */}
             <motion.div
-              whileHover={{ y: -4, scale: 1.01 }}
-              transition={{ duration: 0.4 }}
-              className="relative z-10 w-full h-full rounded-3xl overflow-hidden bg-white p-2.5 border border-purple-200 shadow-xl shadow-purple-900/[0.08]"
+              animate={{ rotate: 360 }}
+              transition={{ duration: 40, repeat: Infinity, ease: 'linear' }}
+              className="absolute -inset-3.5 rounded-full border border-dashed border-purple-300/60 pointer-events-none"
+            />
+
+            {/* Main Circular Portrait Frame */}
+            <motion.div
+              whileHover={{ y: -4, scale: 1.02 }}
+              transition={{ duration: 0.3 }}
+              className="relative z-10 w-full h-full rounded-full overflow-hidden bg-white p-2.5 sm:p-3 border-2 border-purple-200 shadow-xl shadow-purple-900/[0.08]"
             >
-              <div className="w-full h-full rounded-2xl overflow-hidden relative bg-zinc-100">
+              <div className="w-full h-full rounded-full overflow-hidden relative bg-zinc-100">
                 <img
                   src="/profile.jpg"
                   alt="Vaishnavi J Acharya"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-purple-950/20 via-transparent to-transparent pointer-events-none" />
               </div>
@@ -165,7 +169,7 @@ export default function HeroSection({ onExploreWork, onContactClick }) {
             <motion.div
               animate={{ y: [4, -4, 4] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -top-3 -right-3 z-20 px-3.5 py-2 rounded-2xl bg-white/95 border border-purple-200 shadow-md flex items-center gap-2 text-xs font-semibold text-zinc-800 backdrop-blur-md"
+              className="absolute -top-2 -right-3 z-20 px-3.5 py-2 rounded-full bg-white/95 border border-purple-200 shadow-md flex items-center gap-2 text-xs font-semibold text-zinc-800 backdrop-blur-md"
             >
               <Sparkles className="w-3.5 h-3.5 text-purple-600" />
               <span>Clean Code &amp; Systems</span>
@@ -175,10 +179,10 @@ export default function HeroSection({ onExploreWork, onContactClick }) {
             <motion.div
               animate={{ y: [-4, 4, -4] }}
               transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-              className="absolute -bottom-3 -left-3 z-20 px-3.5 py-2 rounded-2xl bg-white/95 border border-purple-200 shadow-md flex items-center gap-2 text-xs font-semibold text-zinc-800 backdrop-blur-md"
+              className="absolute -bottom-2 -left-3 z-20 px-3.5 py-2 rounded-full bg-white/95 border border-purple-200 shadow-md flex items-center gap-2 text-xs font-semibold text-zinc-800 backdrop-blur-md"
             >
               <GraduationCap className="w-3.5 h-3.5 text-purple-600" />
-              <span>CSE • Class of 2027</span>
+              <span>CSE • Class of 2026</span>
             </motion.div>
           </div>
         </motion.div>
